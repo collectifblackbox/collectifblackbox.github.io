@@ -52,6 +52,9 @@ table {
 @basefont: Gill Sans MT;
 @textfont: univers;
 @basetitlecolor: #cccccc;
+@secondarytitlecolor: #757575;
+@linkcolor:#ADADAD;
+@linkhover:#2B2A2A;
 
 .accueil{
 	
@@ -100,12 +103,36 @@ table {
 
 		h2{
 			font-family:@basefont;
-			color:@basetitlecolor;
-			font-size: 2em;
+			color:@secondarytitlecolor;
+			font-size: 3em;
 		}
 
 		div{
 			margin: 30px 0 30px 0;
+
+			p{
+				font-family:@textfont;
+				color:@secondarytitlecolor; 
+				font-size: 1.5em;
+				padding:30px 0 5px 0;
+			}
+
+			a{
+				font-family:@textfont;
+				color:@linkcolor;
+				text-decoration: none;
+			}
+
+			a:hover{
+				color:@linkhover;
+			}
+
+			span{
+				padding:0 3px;
+				font-size: 1.3em;
+				position: relative;
+				top:3px;
+			}
 		}
 	}	
 }

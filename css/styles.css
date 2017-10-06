@@ -526,3 +526,20 @@ footer{
 		position: relative;
 	}
 }
+
+
+/*---------COMPOSITE-----------*/
+
+.aboutComp{
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.aboutComp img{
+	max-width: 800px;
+}
+
+.imgBump{
+	margin-top: 200px;
+	margin-bottom: 400px;
+}
